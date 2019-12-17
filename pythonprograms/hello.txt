@@ -1,0 +1,4 @@
+python is good
+hihellobye
+bye
+hello
