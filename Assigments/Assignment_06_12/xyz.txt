@@ -1,0 +1,1 @@
+The random module provides access to functions that support thesetypes of operations asdfghjklzxcvbnm

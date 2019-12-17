@@ -1,0 +1,8 @@
+name = input("Enter Employee's name:")
+empID = input("Enter Employee ID:")
+DOB = input("Enter Employee's DOB:")
+email = input("Enter Employee email:")
+print('Employee Name: ',name)
+print('Employee ID: ',empID)
+print("Employee's DOB: ",DOB)
+print('Employee email: ',email)
