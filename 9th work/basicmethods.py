@@ -1,0 +1,15 @@
+from selenium import webdriver
+import time
+driver=webdriver.Chrome('C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python35\\Scripts\\chromedriver.exe')
+driver.get('http://localhost/login.do')
+driver.maximize_window()
+driver.refresh()
+time.sleep(3)
+print(driver.title)
+#print(driver.page_source)
+print(driver.current_url)
+print(driver.name)
+print(driver.current_window_handle)
+driver.find_element_by_id('username').send_keys('admin')
+driver.find_element_by_name('pwd').send_keys('manager')
+driver.find_element_by_id('loginButtonContainer').click()

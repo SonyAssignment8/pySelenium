@@ -1,0 +1,10 @@
+from configparser import ConfigParser,ExtendedInterpolation
+c=ConfigParser(interpolation=ExtendedInterpolation())
+c.read("C:\\Users\\admin\Desktop\\f.ini")
+print(c.sections())
+print(c.get("Setting",'c1'))
+print(c.options("Setting"))
+print("DB" in c)
+print(c.get('DB','c2'))
+print(c.getint('DB','db_default_port',fallback=330))
+print(c.getboolean("Setting",'debug'))

@@ -1,0 +1,8 @@
+[Setting]
+debug = true
+c1 = log
+
+[DB]
+db_name = mysql
+c2 = port
+
