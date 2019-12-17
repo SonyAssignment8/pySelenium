@@ -1,0 +1,10 @@
+from selenium import webdriver
+driver = webdriver.Chrome(executable_path="D:\Python\chromedriver.exe")
+driver.get("https://demo.actitime.com/login.do")
+driver.maximize_window()
+driver.find_element_by_id("username").send_keys("trainee")
+driver.find_element_by_tag_name("img")
+driver.find_element_by_tag_name("username").send_keys("Admin")
+driver.find_element_by_class_name("mainArea")
+driver.find_element_by_partial_link_text("password").click()
+driver.close()
