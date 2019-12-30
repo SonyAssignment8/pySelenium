@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e79685c0-9c8c-4d59-8bde-58a0313fe1fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../P1/.idea/NetMeds_Framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P1/ConfigTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P1/generics/CommonMthds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P1/test_data/FitnessPage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P1/test_data/HomePageData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../P1/test_scripts/HomePge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetMed/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetMed/.idea/NetMed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetMed/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetMed/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetMed/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetMed/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assigments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigments/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PythonProject/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vtiger/VerifyDelOrgPresentInRecycleBin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vtiger/VerifyDelOrgPresentInRecycleBin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-    </list>
+    <list default="true" id="e79685c0-9c8c-4d59-8bde-58a0313fe1fe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
