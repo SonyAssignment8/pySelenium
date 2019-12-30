@@ -1,0 +1,11 @@
+from selenium import webdriver
+driver=webdriver.Chrome()
+driver.get("http://bluestone.com/")
+driver.implicitly_wait(7)
+driver.switch_to_frame("chat-widget")
+driver.find_element_by_xpath("//p[contains(text(),'CHAT with our experts !')]").click()
+driver.find_element_by_id("name").send_keys("rashmi")
+driver.find_element_by_id("email").send_keys("rashmi@gmail.com")
+driver.find_element_by_id("name_146917605549304831").send_keys("54654656")
+driver.find_element_by_xpath("//button[@type='submit']").click()
+driver.switch_to_default_content()

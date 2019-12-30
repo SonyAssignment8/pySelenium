@@ -24,4 +24,4 @@ act_msg=alt.text
 exp_msg="Columns cannot be duplicated"
 assert act_msg==exp_msg,print("Fail")
 print("pass")
-driver.close()
+#driver.close()

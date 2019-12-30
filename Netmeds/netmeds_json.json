@@ -1,0 +1,28 @@
+{
+ "login":
+ { "url": "https://www.netmeds.com/",
+  "frame_id": "webklipper-publisher-widget-container-notification-frame",
+  "click_frame": "closeButton",
+  "sign_in": "//a[text()=' Sign in / Sign up ']",
+  "mobile_id":"loginfirst_mobileno",
+  "mobile_num":"9844284954",
+  "password_click":"//button[contains(text(),'USE PASSWORD')]",
+  "psw_id":"login_received_pwd",
+  "password_send":"hardwaretest12$",
+  "signin_click": "//button[text()='Sign in']"
+ },
+  "PersonalCare":
+  {
+    "Personal_Care": "//a[text()='Personal Care']",
+    "click_product":"(//span[@class='clsgetname'])[2]",
+    "AddToCart": "//span[text()='ADD TO CART']",
+   "verify_cart": "//h1[@class='cart-count']"
+  },
+  "uploadprescription":
+  {
+    "uploadprescription_id": "upload_prescription_button",
+    "click_uploadprescription": "//button[text()='uploadprescription_id']",
+    "click_gallery": "//li[@class='galrx_li']"
+  }
+
+}

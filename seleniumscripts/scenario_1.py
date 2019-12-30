@@ -1,0 +1,21 @@
+from selenium import webdriver
+import time
+driver=webdriver.Chrome()
+driver.implicitly_wait(3)
+driver.get("http://webmail.testyantra.in/")
+time.sleep(2)
+driver.find_element_by_id("user").send_keys("rashmi.n@testyantra.in")
+time.sleep(2)
+driver.find_element_by_id("pass").send_keys("softwaretest")
+driver.find_element_by_id("login_submit").click()
+time.sleep(2)
+frame=driver.find_element_by_id("mailFrame")
+driver.switch_to_frame(frame)
+#or directly we can do driver.switch_to_frame("mailFrame")
+c=driver.find_element_by_id("horde-info").text
+print(c[7:18:])
+time.sleep(1)
+list_count=driver.find_elements_by_xpath("//div[@class='msglist']/div")
+i=iter(list_count)
+print(next(i).text)
+driver.close()
