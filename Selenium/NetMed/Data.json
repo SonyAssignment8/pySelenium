@@ -1,0 +1,23 @@
+{
+  "config":
+          {
+            "URL": "https://www.netmeds.com/",
+            "username": 9340667718,
+            "password": "jyoti@0802",
+            "browser": "chrome"
+          },
+  "signin":
+          {
+            "frm": "webklipper-publisher-widget-container-notification-frame",
+            "notification": "//span[text()='No Thanks']",
+
+          },
+  "prodct_tab":
+          {
+            "fitness": "//ul[@class='ui-menu']//a[text()='Fitness']",
+            "category": "//div[@class='cat-item ']//span[text()='Family Nutrition']",
+
+            "brand": "//a[@class='category_name']//span[text()='Horlicks']"
+}
+
+}

@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e79685c0-9c8c-4d59-8bde-58a0313fe1fe" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="e79685c0-9c8c-4d59-8bde-58a0313fe1fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../P1/.idea/NetMeds_Framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/ConfigTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/generics/CommonMthds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/test_data/FitnessPage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/test_data/HomePageData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/test_scripts/HomePge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetMed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetMed/.idea/NetMed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetMed/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetMed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetMed/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetMed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonProject/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonProject/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vtiger/VerifyDelOrgPresentInRecycleBin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vtiger/VerifyDelOrgPresentInRecycleBin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +36,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UjjKouIiietzwbYjdq4WEvpHHo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.Urban_Ladder">
-    <configuration name="Fisrt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.JS_Executor">
+    <configuration name="DataDriven_using_jsonFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fisrt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataDriven_using_jsonFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Orange_HRM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Ex_FIlters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Orange_HRM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex_FIlters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Urban_Ladder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Handle_Alert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Urban_Ladder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Handle_Alert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,28 +118,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gmail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="JS_Executor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gmail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JS_Executor.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice1_10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="screenshot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +148,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice1_10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screenshot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,13 +159,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Urban_Ladder" />
-        <item itemvalue="Python.gmail" />
-        <item itemvalue="Python.Orange_HRM" />
-        <item itemvalue="Python.practice1_10" />
-        <item itemvalue="Python.Fisrt" />
+        <item itemvalue="Python.JS_Executor" />
+        <item itemvalue="Python.screenshot" />
+        <item itemvalue="Python.Ex_FIlters" />
+        <item itemvalue="Python.JS_Executor" />
+        <item itemvalue="Python.JS_Executor" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -159,5 +191,35 @@
       <updated>1575876837312</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1577697257011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577697257011" />
+    <state width="1345" height="109" key="GridCell.Tab.0.bottom" timestamp="1577700425587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="109" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577700425587" />
+    <state width="1345" height="109" key="GridCell.Tab.0.center" timestamp="1577700425587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="109" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577700425587" />
+    <state width="1345" height="109" key="GridCell.Tab.0.left" timestamp="1577700425587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="109" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577700425587" />
+    <state width="1345" height="109" key="GridCell.Tab.0.right" timestamp="1577700425587">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="109" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577700425587" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1577697066821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577697066821" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577696739685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577696739685" />
   </component>
 </project>

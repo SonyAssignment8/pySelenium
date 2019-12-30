@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fd6f55f-1127-4205-ba33-5baa048bda73" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5fd6f55f-1127-4205-ba33-5baa048bda73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../P1/.idea/NetMeds_Framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/ConfigTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/generics/CommonMthds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/test_data/FitnessPage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/test_data/HomePageData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P1/test_scripts/HomePge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/NetMed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/NetMed/.idea/NetMed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/NetMed/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/NetMed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/NetMed/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Selenium/NetMed/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assigments/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assigments/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Amazon.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium/Amazon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/Vtiger/VerifyDelOrgPresentInRecycleBin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium/Vtiger/VerifyDelOrgPresentInRecycleBin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium/chromedriver.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +34,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UPqx94OUn8DssSgeMwQ3tgZ7Dn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.Bitwise">
+  <component name="RunManager" selected="Python.ListComprehension">
     <configuration name="Bitwise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Fibonnaci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ListComprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dir1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MY" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dir1/Fibonnaci.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MY/ListComprehension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,13 +157,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ListComprehension" />
         <item itemvalue="Python.Bitwise" />
         <item itemvalue="Python.Prime" />
         <item itemvalue="Python.Mtd_OverLoad" />
         <item itemvalue="Python.const_1" />
-        <item itemvalue="Python.Fibonnaci" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -160,6 +189,28 @@
       <updated>1575268821827</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1577697295157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577697295157" />
+    <state width="1345" height="110" key="GridCell.Tab.0.bottom" timestamp="1577697299084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577697299084" />
+    <state width="1345" height="110" key="GridCell.Tab.0.center" timestamp="1577697299080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577697299080" />
+    <state width="1345" height="110" key="GridCell.Tab.0.left" timestamp="1577697299080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577697299080" />
+    <state width="1345" height="110" key="GridCell.Tab.0.right" timestamp="1577697299084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577697299084" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

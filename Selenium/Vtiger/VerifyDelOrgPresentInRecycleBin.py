@@ -25,10 +25,11 @@ driver.find_element_by_xpath("//a[text()='Organizations']").click()
 
 # Click on organization to  delete
 count = 0
-while count<=10:
+while count <= 10:
     try:
-        wb = driver.find_element_by_xpath("//tr[@class='lvtColData']//a[text()='Ispiders']/../..//a[text()='del']").click()
-        count +=1
+        wb = driver.find_element_by_xpath(
+            "//tr[@class='lvtColData']//a[text()='Ispiders']/../..//a[text()='del']").click()
+        count += 1
         break
     except:
         print("Exception Handled")
@@ -37,7 +38,7 @@ while count<=10:
 driver.switch_to.alert.accept()
 
 # Move to 'More' Dropdown and click on 'Recycle Bin'
-while count<=10:
+while count <= 10:
     try:
         driver.find_element_by_xpath("//a[text()='More']").click()
         driver.find_element_by_xpath("//a[@name='Recycle Bin']").click()
@@ -48,18 +49,19 @@ while count<=10:
 
 # Getting the organization which is deleted
 import time
+
 time.sleep(5)
 del_org_Name = driver.find_element_by_xpath("//table[@class='lvt small']/tbody/tr/td/a[text()='Ispiders']")
 print(del_org_Name.text)
 
 # Getting all the Organizations present in Org page
-count=0
-while count<=10:
+count = 0
+while count <= 10:
     try:
         org_names = driver.find_elements_by_xpath("//tr[@class='lvtColData']/td[3]")
         break
-    except Exception:
-        count+1
+    except:
+        count + 1
 
 # Validating the deleted organization name
 for i in org_names:

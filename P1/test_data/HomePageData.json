@@ -1,0 +1,11 @@
+{
+  "xpath":
+        {
+          "fitness_tab": "//ul[@class='ui-menu']//a[text()='Fitness']",
+          "signin_lnk": "//span[text()='Sign in / Sign up']",
+          "userid": "//input[@type='tel']",
+          "signin_btn": "//button[text()='USE PASSWORD']"
+        }
+
+
+}
