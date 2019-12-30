@@ -1,11 +1,9 @@
-#1.To print first char in a file
-f = open("new.txt","w")
-f.write("Good Morning")
-f.close()
-
-f=open("new.txt","r")
-data=f.read()
-print(data[0])
-
-
-f.close()
+from selenium import webdriver
+import time
+driver = webdriver.Chrome()
+driver.get("https://demo.actitime.com/login.do")
+driver.maximize_window()
+time.sleep(3)
+driver.add_cookie({'name':'a','value':'apple'})
+print(driver.get_cookie("a"))
+#driver.close()
