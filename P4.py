@@ -1,8 +1,4 @@
-#21.WAP to find number of vowels in a given string
-string=input("Enter string:")
-vowels=0
-for i in string:
-      if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
-            vowels=vowels+1
-print("Number of vowels are:")
-print(vowels)
+#4.Read the input string from the user & print it in reverse order
+a=input("Enter a string to be reversed:")
+reversed = a[::-1]
+print(reversed)

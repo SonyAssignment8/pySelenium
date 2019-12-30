@@ -1,6 +1,6 @@
-#6.Read the value from the user & perform the below operation
-a=int(input("Enter the value:"))
-n1 = int( "%s" % a )
-n2 = int( "%s%s" % (a,a) )
-n3 = int( "%s%s%s" % (a,a,a) )
-print (n1+n2+n3)
+#6.WAP to print the numbers which are divisible by 3 from range 5 to 25
+a =5
+while(a<=25):
+    if a%3==0:
+        print("Numbers divisible by 3 from range 5 to 25 are :",a)
+    a+=1

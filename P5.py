@@ -1,8 +1,3 @@
-# to calculate the average of a numbers in given list
-n = int(input("Enter the number of elements to be inserted:"))
-a=[]
-for i in range(0,n):
-    elem=int(input("Enter element:"))
-    a.append(elem)
-    avg=sum(a)/n
-    print("Average of elements in list is:",round(avg,2))
+#5.WAP to print the values from the range 1 to 10
+for i in range(10):
+    print(i,end=" ")
