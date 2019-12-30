@@ -1,0 +1,18 @@
+{
+  "config": {
+    "url": "https://www.netmeds.com/"
+  },
+  "Login": {
+    "username": "8552002947",
+    "password": "Teamwork@1"
+  },
+  "Xpath": {
+    "creden": "//span[text()='Sign in / Sign up']",
+    "uname": "//input[@class='form-control']",
+    "pwd" :"//input[@class='form-control ng-untouched ng-pristine ng-invalid']",
+    "familyc" : "//a[text()='Family Care']",
+    "addtocart": "//button[text()='ADD TO CART']",
+    "producttoadd": "//span[text()='ADD TO CART']",
+    "productcount" : "//span[@class='counter-number']"
+  }
+}
