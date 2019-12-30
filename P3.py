@@ -1,7 +1,9 @@
-#Max of 2 number
-a =100
-b= 200
-if a > b:
-    print(a,"is greater")
-else:
-    print(b,"is greater")
+#3.To print file data in reverse order(reverse,slicing)
+f = open("new2.txt","w")
+f.write("Good Night")
+f.close()
+
+f=open("new2.txt","r")
+data=f.read()
+print(data)
+print(data[::-1])
