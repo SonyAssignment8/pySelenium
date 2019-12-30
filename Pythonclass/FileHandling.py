@@ -1,0 +1,6 @@
+# f=open("ab.txt","w")
+# f.write("hello world")
+# f.close()
+f=open("CreateFile.txt","r")
+print(f.)
+f.close()

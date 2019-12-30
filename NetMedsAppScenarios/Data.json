@@ -1,0 +1,43 @@
+{
+  "config": {
+    "url": "https://www.netmeds.com/",
+    "username": "9591944512",
+    "password": "Krishna@123"
+
+  },
+  "login": {
+    "signinlink": "//a[text()=' Sign in / Sign up ']",
+    "username": "loginfirst_mobileno",
+    "btn": "//button[text()='USE PASSWORD']",
+    "password": "login_received_pwd",
+    "signinbtn": "//button[text()='Sign in']"
+  },
+  "home": {
+    "fitness": "//ul[@class='ui-menu']/li/a[text()='Fitness']",
+    "family_care": "//ul[@class='ui-menu']/li/a[text()='Family Care']"
+
+  },
+  "catogories": {
+    "health_and_food": "//a[text()='Health Food And Drinks']",
+    "baby_and_infants": "//a[text()='Baby And Infant']"
+  },
+  "cart": {
+    "addtocart": "(//button[text()='ADD TO CART'])[1]",
+    "cartcount": "//span[@class='counter-number']",
+    "countinsidecart": "//h1[@class='cart-count']/span/..",
+    "proceed": "//button[text()='Proceed']",
+    "seletaddress": "//span[text()='Select Address']",
+    "back": "//a[text()='Back']"
+  },
+  "result": {
+    "expected": "1 Items in Cart",
+    "pageTitle": "Select Address"
+  },
+  "logout": {
+    "logoutlink": "//div[contains(@class,'loginlinkbox')]",
+    "logoutbtn": "//a[text()='Logout ']"
+  },
+  "sorting": {
+    "sort_by": "//button[text()='Popularity']"
+  }
+}
