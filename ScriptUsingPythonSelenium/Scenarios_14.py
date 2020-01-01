@@ -24,3 +24,6 @@ class BlueStone:
     def coins(self):
         coins_link=self.driver.find_element_by_xpath("//a[text()='Coins ']")
         ActionChains(self.driver).move_to_element(coins_link).perform()
+
+b=BlueStone("chrome")
+b.launchWebsite()
