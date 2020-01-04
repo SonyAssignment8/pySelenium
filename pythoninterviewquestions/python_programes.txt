@@ -1,0 +1,969 @@
+1.Program to reverse a string without using list or concat---??
+ans:
+string1 = "the crazy programmer"
+string2 = ""
+i = len(string1) - 1
+while (i >= 0):
+    string2 = string2 + string1[i]
+    i = i - 1
+print("original = " + string1)
+print("reverse  = " + string2)
+print("====================")
+# Python program to reverse a given String
+# Using a user-defined function
+def reverse(str):
+    s = ""
+    for ch in str:
+        s = ch + s
+    return s
+
+
+# given string
+mystr = "BeginnersBook"
+print("Given String: ", mystr)
+# reversed string
+print("Reversed String: ", reverse(mystr))
+print("============================")
+def reverse_string_words(text):
+    for line in text.split('\n'):
+        return(' '.join(line.split()[::-1]))
+print(reverse_string_words("The quick brown fox jumps over the lazy dog."))
+print(reverse_string_words("Python Exercises."))
+o/p:
+original = the crazy programmer
+reverse  = remmargorp yzarc eht
+====================
+Given String:  BeginnersBook
+Reversed String:  kooBsrennigeB
+============================
+dog. lazy the over jumps fox brown quick The
+Exercises. Python
+---------------------------------------------------------------------------------------------------------------------------------
+2.Any program for list comprehension---??
+ans:
+#2.Any program for list comprehension---?
+#powerof cube for given value whic is greater then 2--
+print([i**3 for i in [1,2,3,4] if i>2])
+#Filtering Dictionary using List Comprehension
+#Suppose you have a dictionary and you want to select particular keys and specific values.
+# In short you want to apply conditional statement IF to subset or filter dictionary.
+d = {'a': [1,2,1], 'b': [3,4,1], 'c': [5,6,2]}
+print([(x,y) for x, y in zip(d['a'],d['b']) if x == 1 and y > 1])
+#In the above program, x refers to d['a'] and y refers to d['b'].
+#Filter dictionary by values
+#Here we are selecting values where b is greater than 2.
+print([x for x in d['b'] if x >2])
+#Filter dictionary where all values are greater than 1
+#all( ) checks condition(s) for all values in the list. It returns True/False.
+#k refers to keys and v refers to values of dictionary.
+
+print([(k,v) for k,v in d.items() if all(x > 1 for x in v) ])
+#Only key c contains values which all are greater than 1. Similarly we have any( ) function which returns True if any of the value meets condition.
+print([(k,v) for k,v in d.items() if any(x > 2 for x in v) ])
+#How to create tuples from lists
+l1 = ['a','b']
+l2 = ['c','d']
+print([(x,y) for x in l1 for y in l2])
+#Split Sentences into words with list comprehension
+text = ["Life is beautiful", "No need to overthink", "Meditation help in overcoming depression"]
+print([word for sentence in text for word in sentence.lower().split(' ')])
+#1. Remove these words is, in, to, no from text list. Desired output should be as follows
+'''
+commented data
+o/p:----
+'life',
+ 'beautiful',
+ 'need',
+ 'overthink',
+ 'meditation',
+ 'help',
+ 'overcoming',
+ 'depression'
+'''
+#22. Find matching numbers in the lists.
+x = [51, 24, 32, 41]
+y = [42, 32, 41, 50]
+o/p:---
+[27, 64]
+[(1, 3)]
+[3, 4]
+[('c', [5, 6, 2])]
+[('b', [3, 4, 1]), ('c', [5, 6, 2])]
+[('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd')]
+['life', 'is', 'beautiful', 'no', 'need', 'to', 'overthink', 'meditation', 'help', 'in', 'overcoming', 'depression']
+----------------------------------------------------------------------------------------------------------------------------------------
+3.Write a program to print Fibonacci series---??
+ans:
+# Program to display the Fibonacci sequence up to n-th term
+num = int(input("How many numbers? "))
+# first two terms
+n1, n2 = 0, 1
+count = 0
+# check if the number of terms is valid
+if num <= 0:
+   print("Please enter a positive integer")
+elif num == 1:
+   print("Fibonacci sequence upto",num,":")
+   print(n1)
+else:
+   print("Fibonacci sequence:")
+   while count < num:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       count += 1
+o/p:
+How many numbers? 10
+Fibonacci sequence:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+--------------------------------------------------------------------------------------------------------------------------
+4. Program to read a file and reverse each line --?
+ans:
+#4. Program to read a file and reverse each line ---?
+#create and write data in a file
+file1=open("file1.txt","w")
+file1.write("This is first line\n")
+file1.write("This is sezond line\n")
+file1.write("This is third line")
+print("File created succesfully")
+file1.close()
+print("================================================")
+#Read the data in a file
+file2=open("file1.txt","r")
+
+# data1=file2.readlines()
+# print("Read the data in the form of list using readlines()",data1)
+#At a time we cannot use both read() and readlines()
+data2=file2.read()
+print(data2)
+print("============================")
+print("Read the data normally using read() and reverse the file\n",data2[::-1])
+print("============================")
+def reverse_string_words(text):
+    for line in text.split('\n'):
+        return(' '.join(line.split()[::-1]))
+print(reverse_string_words(data2))
+o/p:
+File created succesfully
+================================================
+This is first line
+This is sezond line
+This is third line
+============================
+Read the data normally using read() and reverse the file
+ enil driht si sihT
+enil dnozes si sihT
+enil tsrif si sihT
+============================
+line first is This
+--------------------------------------------------------------------------------------------------------------------------
+5.what is pylint?
+ans:
+It is a static code analysis tool to identify errors in Python code and helps programmers enforce good coding style.
+This tool enables them debugging complex code with less manual work.
+
+It is one of the tools which gets used for test-driven development (TDD).
+
+The coding style that Pylint applies to the code is known as PEP8.
+
+For more information, about PEP8 visit the link: PEP8 Style Guide for Python
+
+Other products which are similar to Pylint are pyflakes, mypy, etc.
+
+It is a must-have tool for every beginner as well as advanced users as it scans and
+rates programs with a score according to the rules outlined in the PEP8 Style Guide.
+'''
+'''
+How To Install And Use Pylint?
+To install it on systems such as Windows 10, Mac OS, Linux, use the following command:
+
+pip install pylint
+
+# Check for style errors
+pylint filename.py
+'''
+'''
+ython Program With Style Issues:
+Here is a simple program (sample.py) having some styling issues.
+
+a = 23
+b = 45
+c = a + b
+
+print(c)'''
+'''
+Run Pylint
+"""
+Code to add two numbers
+"""
+
+a = 23
+b = 45
+c = a + b
+
+print(c)
+'''
+===========================================================================================================================
+6.Write git commands?
+ans:-----------https://www.edureka.co/blog/git-commands-with-example/
+
+Following are the  Git commands which are being covered:
+
+git config
+git init
+git clone
+git add
+git commit
+git diff
+git reset
+git status
+git rm
+git log
+git show
+git tag
+git branch
+git checkout
+git merge
+git remote
+git push
+git pull
+git stash
+
+
+----------------------------------------------------------------------------------------------------------
+7. Write a program to replace the specific words in a file?
+ans:
+#7. Write a program to replace the specific words in a file?
+#read the data
+f=open("file1.txt","r")
+data=f.read()
+#here it replacing specific word using replace()
+new_data=data.replace("third","Fourth")
+print(new_data)
+f.close()
+f1=open("file1.txt",'w')
+#here update new data after replaceing theword
+f1.write(new_data)
+f1.close()
+o/p:
+These is first line
+These is sezond line
+These is Fourth line
+-------------------------------------------------------------------------------------------------------------------
+8.How to store dictionary values in a file?
+ans:
+#create dictionary and write into text file
+dicitem={'k1':"value1",'k2':"value2"}
+f=open("dicitem.txt",'w')
+#here we have to convert Dictionary  into string to enter that data into file
+f.write(str(dicitem))
+print("Dictionary file created successfully")
+f.close()
+o/p:
+Dictionary file created successfully
+------------------------------------------------------------------------------------------------
+9.How to handle JSON file in that file, how you fetch only keys
+ans:
+import json
+f=open("jsonfile.json","r")
+json_data=json.load(f)
+#these json_data is in the form fo dictionary so we will get keys using json_data.keys()
+print("Keys present in the json file is ---",json_data.keys())
+print("Values present in the values----",json_data.values())
+o/p:
+Keys present in the json file is --- dict_keys(['Keys1', 'keys2'])
+Values present in the values---- dict_values([{'key2': 'Values2', 'key1': 'value1'}, {'Hi1': 'Hello', 'Hi2': 'He'}])
+------------------------------------------------------------------------------------------------------------------------------
+10 Write a Program for encapsulation?
+ans:
+class phone:
+    name="sony" #this variable is public
+    __number= 201090943929 #this is private one ,and also my actual number heheheheeh boii
+    def print_name(self): #this is public method
+        print ('my phone name is:', self.name)
+    def __print_number(self): #and private method
+        print (self.__number)
+#actually we(the programmer not the user)-while writing the code- can give the user the user the authority to only
+#see the value of the variable ,even to modify it by defining a metod inside the class
+    def print_private_number(self):
+        return self.__number
+    def modify_private_number(self,newNumber):
+        self.__number=newNumber
+        print(newNumber)
+#now u can both prnt and modify the mumber with only the following methods
+
+my_phone=phone()
+my_phone.print_name() #now i called the public function , and cam simply print it as it's public (can be accessed)
+print (my_phone.name) #same as here with variable
+#Now if we tried to retrive private data ,or run private method
+#its gonna end up with an error
+#print (my_phone.__number)
+#my_phone.__print_number()
+
+print (my_phone.print_private_number())
+my_phone.modify_private_number(5)
+#so what if the programmer didnt allow us to see the number
+#is that the end of the road ? nah ,we still can crack the system and both read and modify the private variables n functions
+#hmmm am not gonna call it crack coz the langauage itself provides the programmer with
+#syntatic tool that circumvent encapsulation
+print (my_phone._phone__number)
+#my_phone._phone__print_name() 
+o/p:
+my phone name is: sony
+sony
+201090943929
+5
+5
+--------------------------------------------------------------------------------------------------------------------------
+12 Write a basic program for iterator, decorator and generator?
+ans:
+#12 Write a basic program for iterator, decorator and generator
+'''
+Decorator:
+Decorator is way to dynamically add some new behavior to some objects. We achieve the same in Python by using closures.
+In the example we will create a simple example which will print some statement before and after the execution of a function.
+'''
+print("==============Decorator==============")
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before call")
+        result = func(*args, **kwargs)
+        print("After call")
+        return result
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    #"Our add function"
+    return a + b
+#calling the decorator method
+print(add(1,3))
+print("==================Generator===================")
+def my_generator():
+    print("Inside my generator")
+    yield 'a'
+    yield 'b'
+    yield 'c'
+my_generator()
+for char in my_generator():
+    print(char)
+print("-----------------------")
+def fact(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+        yield f
+
+for i in fact(5):
+    print(i)
+print("====================")
+class Counter(object):
+     def __init__(self, low, high):
+        self.low = low
+        self.high = high
+     def __iter__(self):
+         counter = self.low
+         while self.high >= counter:
+             yield counter
+             counter += 1
+gobj = Counter(5, 10)
+for num in gobj:
+    print(num, end=' ')
+print("\n==================Generator Expressions===================")
+#sum of the values
+print(sum([x*x for x in range(1,10)]))
+#Square in the given range
+print([x*x for x in range(1,10)])
+print("\n========================Iterator----------------")
+class Counter(object):
+    def __init__(self, low, high):
+        self.current = low
+        self.high = high
+
+    def __iter__(self):
+        'Returns itself as an iterator object'
+        return self
+
+    def __next__(self):
+        'Returns the next value till current is lower than high'
+        if self.current > self.high:
+            raise StopIteration
+        else:
+            self.current += 1
+            return self.current - 1
+#creating object
+obj=Counter(1,10)
+for i in obj:
+    print(i,end="")
+c=Counter(5,6)
+next(c)
+class Hotel():
+    def __init__(self):
+        self.menu=["Idle","dosa","puri"]
+        self.index=-1
+    def __iter__(self):
+        return self
+    def __next__(self):
+        self.index+=1
+        if self.index>=len(self.menu):
+            raise StopIteration
+        return (self.menu[self.index])
+
+
+for i in Hotel():
+    print(i)
+print("=====================")
+list=[2,3,4,5,6]
+for i in list:
+    print(i)
+print("==============")
+a=[3,4,5,6]
+i=iter(a)
+for j in a:
+    print(next(i))
+o/p:
+==============Decorator==============
+Before call
+After call
+4
+==================Generator===================
+Inside my generator
+a
+b
+c
+-----------------------
+1
+2
+6
+24
+120
+====================
+5 6 7 8 9 10 
+==================Generator Expressions===================
+285
+[1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+========================Iterator----------------
+12345678910Idle
+dosa
+puri
+=====================
+2
+3
+4
+5
+6
+==============
+3
+4
+5
+6
+--------------------------------------------------------------------------------------------------------
+13..Print the number from 1-6 using list comprehension?
+ans:
+print([x for x in range(1,7)])
+o/p:
+[1, 2, 3, 4, 5, 6]
+---------------------------------------------------------------------
+15. Write a program to store the element present in list1 and not in list2
+ans:
+#Create twp lists
+list_1 = [2,3,4,1,5,6]
+list_2 = [2,3,9,8,10]
+#compare two lists
+print("Common elements present in the two lists----",[item for item in list_1 if item in list_2])
+print("Elements which is not present in the two lists----",[item for item in list_1 if item not in list_2])
+o/p:
+Common elements present in the two lists---- [2, 3]
+Elements which is not present in the two lists---- [4, 1, 5, 6]
+--------------------------------------------------------------------------------------------------------------
+16. Write any method which is being generalized in your project?
+ans:
+#for explicitly wait we use these method
+def explicity_wait(driver,time,we,loc):
+    from selenium import webdriver
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as ec
+    from selenium.webdriver.common.by import By
+    driver=webdriver.Chrome()
+    element=WebDriverWait(driver,time).until((ec.presence_of_element_located(By.we,loc)))
+    element.click()
+------------------------------------------------------------------------------------------------------------------------------------
+17. Program to read a file and count occurrence of each word?
+ans:
+# Open the file in read mode
+text=open("file1.txt","r")
+# Create an empty dictionary
+d=dict()
+for line in text:
+    # Remove the leading spaces and newline character
+    line = line.strip()
+    # Convert the characters in line to
+    # lowercase to avoid case mismatch
+    line = line.lower()
+    # Split the line into words
+    words = line.split(" ")
+    # Iterate over each word in line
+    for word in words:
+        # Check if the word is already in dictionary
+        if word in d:
+            # Increment count of word by 1
+            d[word] = d[word] + 1
+        else:
+            # Add the word to dictionary with count 1
+            d[word] = 1
+# Print the contents of dictionary
+for key in list(d.keys()):
+    print(key, ":", d[key])
+text.close()
+o/p:
+third : 1
+is : 3
+first : 1
+sezond : 1
+this : 3
+line : 3
+------------------------------------------------------------------------------------------------
+18. To replace character of a string in other character?
+ans:
+text="My name is tom"
+#replaceold word with new word
+print(text.replace("tom","jerry"))
+#replaceold charector with new charector
+print(text.replace("s","z"))
+o/p:
+My name is jerry
+My name iz tom
+-----------------------------------------------------------------
+19. How to get all the values in a dictionary?
+ans:
+items={"name":"sujitha","class":"python","section":"D-section"}
+#print all the values present in the dictionary
+print(items.values())
+o/p:
+dict_values(['python', 'sujitha', 'D-section'])
+----------------------------------------------------------------------
+20. To print missing letter in the list
+ans:
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+#convert string into list
+lst=list(alphabet)
+def missing_letters(lst1):
+    missing = []
+    for key in lst:
+        if key not in lst1:
+            missing.append(key)
+    return ''.join(missing) or None
+
+#printing the missing letters in a list
+print(list(missing_letters(['r','t','z'])))
+o/p:
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 's', 'u', 'v', 'w', 'x', 'y']
+------------------------------------------------------------------------------------------------------------------------------
+21. Program to reverse list of string:
+ans:
+# Python code to reverse a string
+# using loop
+# def reverse(s):
+#     str = ""
+#     for i in s:
+#         str = i + str
+#     return str
+#using if condition
+def reverse(s):
+    if len(s) == 0:
+        return s
+    else:
+        return reverse(s[1:]) + s[0]
+s = "my name is suji"
+
+print("The original string  is : ", end="")
+print(s)
+
+print("The reversed string(using loops) is : ", end="")
+print(reverse(s))
+print("=============")
+spl=s.split(" ")
+spl=spl[-1::-1]
+print(spl)
+o/p:
+The original string  is : my name is suji
+The reversed string(using loops) is : ijus si eman ym
+=============
+['suji', 'is', 'name', 'my']
+---------------------------------------------------------------------------------------------
+22 .Display names in alphabetical order?
+ans:
+s="Hello these is my world"
+s1=s.split(" ")
+s1.sort()
+for word in s1:
+    print(word)
+o/p:
+Hello
+is
+my
+these
+worl
+-------------------------------------------------------------------------------------------
+23. Program for method overriding?
+ans:
+import math
+# Super class
+class Polygons:
+    def number_of_sides(self):
+        return 0
+    def area(self):
+        return 0
+    def perimeter(self):
+        return 0
+# Triangle class inherits from Polygons
+class Triangle(Polygons):
+    def number_of_sides(self):
+        return 3
+    def area(self, base, height):
+        return 1 / 2 * base * height
+    def perimeter(self, a, b, c):
+        if a + b > c:
+            return a + b + c
+        else:
+            return "Invalid input: make sure a + b > c"
+# Rhombus class inherits from Polygons
+class Rhombus(Polygons):
+    def number_of_sides(self):
+        return 4
+    def area(self, p, q):
+        return p * q / 2
+    def perimeter(self, a):
+        return 4 * a
+# Pentagon class inherits from Polygons
+class Pentagon(Polygons):
+    def number_of_sides(self):
+        return 5
+    def area(self, a):
+        return 1 / 4 * math.sqrt(5 * (5 + 2 * math.sqrt(5))) * a ** 2
+    def perimeter(self, a):
+        return 5 * a
+# Hexagon class inherits from Polygons
+class Hexagon(Polygons):
+    def number_of_sides(self):
+        return 6
+    def area(self, a):
+        return (3 * math.sqrt(3) / 2) * a ** 2
+    def perimeter(self, a):
+        return 6 * a
+# Below is some test cases.
+tri = Triangle()
+print("Triangle Area:", tri.area(15, 25))
+print("Perimeter:", tri.perimeter(15, 20, 25))
+print("-----------------")
+rho = Rhombus()
+print("Rhombus Area:", rho.area(15, 25))
+print("Perimeter:", rho.perimeter(30))
+print("-----------------")
+pent = Pentagon()
+print("Pentagon Area:", pent.area(15))
+print("Perimeter:", pent.perimeter(25))
+print("-----------------")
+hex = Hexagon()
+print("Hexagon Area:", hex.area(15))
+print("Perimeter:", hex.perimeter(25))
+print("-----------------")
+o/p:
+Triangle Area: 187.5
+Perimeter: 60
+-----------------
+Rhombus Area: 187.5
+Perimeter: 120
+-----------------
+Pentagon Area: 387.10741513251753
+Perimeter: 125
+-----------------
+Hexagon Area: 584.5671475544962
+Perimeter: 150
+--------------------------------------------------------------------------------------------------------------------
+24. From a dictionary how to print key in one line and value in other line
+ans:
+dic={"key1":"value1","key2":"value2","key3":"value3"}
+for i in dic.keys():
+    for j in dic.values():
+        print(i,"\n",j)
+        break
+o/p:
+key1 
+ value1
+key3 
+ value1
+key2 
+ value1
+--------------------------------------------------------------------------------------
+25. Write a method which can used as an alternative to string replace method
+ans:
+string = 'The quick brown fox jusmps over the lazy dog'
+# Define your variables
+result = ''
+for i in string:
+        if i == 'o':
+                i = '0'
+        result += i
+
+print(result)
+o/p:
+The quick br0wn f0x jusmps 0ver the lazy d0g
+=======================================================================================
+26 Replace every alternate character in a string with a “*” using inbuilt function and without using inbuilt function
+ans:
+string="These is a my apple  and ant"
+replace_char=""
+for i in string:
+    if i=='a':
+        i='*'
+    replace_char+=i
+print(replace_char)
+o/p:
+These is * my *pple  *nd *nt
+-----------------------------------------------------------------------------------------
+26.  l=[1,2,3,4,5], output = 5  create a list which will have the indexes of elements e.g. 1+4=5,2+3=5 so get the index of the elements which will give the output
+	L=[(0,3),(1,2)]
+ans:
+lst=[2,3,4,5,1,10]
+max_val=print("Maximum value is",max(lst))
+print("Indexing of list values is---",lst[0]+lst[1]+lst[3])
+-----------------------------------------------------------------------------------------
+#27. Write a program for custom iterator
+# A simple Python program to demonstrate
+# working of iterators using an example type
+# that iterates from 10 to given value
+
+# An iterable user defined type
+class Test:
+    # Cosntructor
+    def __init__(self, limit):
+        self.limit = limit
+        # Called when iteration is initialized
+    def __iter__(self):
+        self.x = 10
+        return self
+    # To move to next element. In Python 3,
+    # we should replace next with __next__
+    def __next__(self):
+        # Store current value ofx
+        x = self.x
+        # Stop iteration if limit is reached
+        if x > self.limit:
+            raise StopIteration
+            # Else increment and return old value
+        self.x = x + 1;
+        return x
+    # Prints numbers from 10 to 15
+for i in Test(15):
+    print(i)
+# Prints nothing
+for i in Test(5):
+    print(i)
+o/p:
+10
+11
+12
+13
+14
+15
+-------------------------------------------------------
+28.Write Fixture and call that fixture before and after the test case
+ans:
+--------------------------------------------------------
+29.Write a program, Given two strings, you have to insert second string exactly at the middle of the first string 
+ans:
+line = 'Kong Panda'
+lin1="Fu "
+index = line.find('Panda')
+output_line = line[:index] + lin1 + line[index:]
+print(output_line)
+o/p:
+Kong Fu Panda
+----------------------------------------------------------------------------
+30. Given 2 strings, write regular expression to match those strings
+ans:
+import re
+str1="this is sujitha"
+str2="this is varshith"
+print("Nothing is matching in a given string becoz string have different data",re.match(str1,str2))
+print("================================")
+email = "example@gmail.com"
+if not re.match(re.compile(r'^.+@[^.].*\.[a-z]{2,10}$', flags=re.IGNORECASE), email):
+    print("Enter a valid email address")
+else:
+    print("Email address is valid")
+print("==========================================")
+numbers = ["+18009592809", "=18009592809"]
+for number in numbers:
+    if not re.match(re.compile(r"^(\+1?[-. ]?(\d+))$"), number):
+        print("Number is not valid")
+    else:
+        print("Number is valid")
+o/p:
+Nothing is matching in a given string becoz string have different data None
+================================
+Email address is valid
+==========================================
+Number is valid
+Number is not valid
+-----------------------------------------------------------------------
+#31. How to get all the values in a dictionary program
+dic={"key1":"value1","key2":"value2","key3":"value3"}
+for i in dic.keys():
+    for j in dic.values():
+        print("Print only values-----------------",j)
+        break
+o/p:
+Print only values----------------- value2
+Print only values----------------- value2
+Print only values----------------- value2
+--------------------------------------------------------------------------------------------------
+#32. Write a program to fetch json data
+import json
+f=open("jsonfile.json","r")
+json_data=json.load(f)
+#these json_data is in the form fo dictionary so we will get keys using json_data.keys()
+print("Print json data",json_data)
+o/p:
+Print json data {'keys2': {'Hi1': 'Hello', 'Hi2': 'He'}, 'Keys1': {'key2': 'Values2', 'key1': 'value1'}}
+-------------------------------------------------------------------------------------------------------------------
+#33. Write a code to sort elements present in list (without using built in method)
+ans:
+l = [64, 25, 12, 22, 11, 1,2,44,3,122, 23, 34]
+
+for i in range(len(l)):
+    for j in range(i + 1, len(l)):
+
+        if l[i] > l[j]:
+           l[i], l[j] = l[j], l[i]
+
+print(l)
+o/p:
+[1, 2, 3, 11, 12, 22, 23, 25, 34, 44, 64, 122]
+-----------------------------------------------------------------------------
+#34. Write a code to swap elements.
+a=2
+b=3
+a,b=b,a
+print(a)
+print(b)
+o/p:
+3
+2
+===================================================
+#35. Write a code to remove the duplicate from a list.
+#using loop
+a = [10,20,30,20,10,50,60,40,80,50,40]
+dup_items = set()
+uniq_items = []
+for x in a:
+    if x not in dup_items:
+        uniq_items.append(x)
+        dup_items.add(x)
+print(dup_items)
+#using dictionary keys
+def unique(data):
+  return list(dict.fromkeys(data))
+GoTB = ['Tony', 'Rocket', 'Scott', 'Steve', 'Rocket', 'Natasha', 'Tony']
+finalList = unique(GoTB)
+print(finalList)
+#using list comprehension
+listA = [11, 21, 19, 11, 19, 11, 29, 46]
+print("The original list is : " + str(listA))
+unique = []
+[unique.append(x) for x in listA if x not in unique]
+print("The list after removing duplicates : " + str(unique))
+o/p:
+{40, 10, 80, 50, 20, 60, 30}
+['Steve', 'Scott', 'Natasha', 'Tony', 'Rocket']
+The original list is : [11, 21, 19, 11, 19, 11, 29, 46]
+The list after removing duplicates : [11, 21, 19, 29, 46]
+----------------------------------------------------------------------------------------------
+#36. Write a code to count digits from a given number.
+
+num="234556"
+count=0
+for i in num:
+    if num.isdigit():
+        count+=1
+print("Number of the digits present in given string is---",count)
+o/p:
+Number of the digits present in given string is--- 6
+-------------------------------------------------------------
+#38. From a list copy all the even and odd numbers in separate lists in sorted order.
+ans:
+lst=[4,3,6,1,9,8,10]
+even=[]
+odd=[]
+for i in lst:
+    if i%2==0:
+        even.append(i)
+    else:
+        odd.append(i)
+print("Even numbers is---->",even)
+print("Odd numbers is---->",odd)
+o/p:
+Even numbers is----> [4, 6, 8, 10]
+Odd numbers is----> [3, 1, 9]
+---------------------------------------------------------------
+39. Write a code to return length of longest no using list comprehension.
+ans:
+max_length,longest_element = max([(len(x),x) for x in ('23','345','456897')])
+print("length of the longest number in list comprehension-----------",max_length)
+print("==================================")
+def longestWord(some_list):
+    count = 0    #You set the count to 0
+    for i in some_list: # Go through the whole list
+        if len(i) > count: #Checking for the longest word(string)
+            count = len(i)
+            word = i
+    return ("the longest string is " + word)
+print(longestWord(["45","345","435"]))
+print("------------------")
+a=[]
+n= int(input("Enter the number of elements in list:"))
+for x in range(0,n):
+    element=input("Enter element" + str(x+1) + ":")
+    a.append(element)
+max1=len(a[0])
+temp=a[0]
+for i in a:
+    if(len(i)>max1):
+       max1=len(i)
+       temp=i
+print("The number with the longest length is:")
+print(temp)
+o/p:
+length of the longest number in list comprehension----------- 6
+==================================
+Enter the number of elements in list:3
+the longest string is 34
+Enter element1:34234235345
+Enter element2:546
+Enter element3:54645
+The number with the longest length is:
+34234235345
+
+
+
+
+
+
+
+
+
+
+
