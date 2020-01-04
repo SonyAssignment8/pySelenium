@@ -21,6 +21,7 @@ class BlueStone:
 
     def launchWebsite(self):
         self.driver.get("https://www.bluestone.com/")
+        self.driver.maximize_window()
         self.Alljwellary()
 
     def Alljwellary(self):

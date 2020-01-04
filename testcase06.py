@@ -25,7 +25,7 @@ driver.find_element_by_xpath("//span[@class='view-by-wrap title style-outline i-
 
 import time
 time.sleep(2)
-driver.find_element_by_xpath("//div[@class='form-item ']//a[contains(text(),'Price Low to High')]").click()
+driver.find_element_by_xpath("//a[contains(text(),'Price Low to High')]").click()
 price_lowhigh=[]
 
 #get the list  of the low to high price list
