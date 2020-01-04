@@ -1,0 +1,1 @@
+dict_values(['hi', 'hello', 'how', 'are', 'you'])

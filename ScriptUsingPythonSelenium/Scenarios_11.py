@@ -20,9 +20,29 @@ class BlueStone:
 
     def launchWebsite(self):
         self.driver.get("https://www.bluestone.com/")
+        self.offers()
 
-    def coins(self):
-        ActionChains(self.driver).
+    def offers(self):
+        self.driver.find_element_by_xpath("//a[text()='Offers ']").click()
+        self.makingCharges()
+
+    def makingCharges(self):
+        product_offer=self.driver.find_elements_by_xpath("//span[@class='offer']")
+        p_lst=[]
+        for i in product_offer:
+            p_lst.append(i.text)
+        flag=False
+        for i in p_lst:
+            if i.__contains__("20% OFF ON DIAMOND PRICE"):
+                flag=True
+
+        assert flag==True,"list does not contains 20% off product list"
+        print("list contains 20% off product list ")
+        self.driver.close()
+
+b=BlueStone("chrome")
+b.launchWebsite()
+
 
 
 
