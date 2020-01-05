@@ -1,0 +1,454 @@
+1.How will run the python program using pytest?
+ans:
+Using Fixtures in Pytest--------
+------------------------------
+import pytest
+
+@pytest.fixture()
+def my_fixture():
+     print("\n I'm the fixture - setUp")
+     yield
+     print("I'm the fixture - tearDown")
+
+def test_first(my_fixture):
+     print("I'm the first test")
+
+def test_second(my_fixture):
+    print("I'm the second test")
+
+def test_third():
+    print("I'm the third test (without fixture)")
+o/p
+In Terminal Enter these command
+-----------
+pytest -v -s run_pro_pytest.py--------these is for specific file,if u want to run all test cases u will give full path
+Result is:
+platform win32 -- Python 3.5.4, pytest-5.3.2, py-1.8.1, pluggy-0.13.1 -- c:\users\sujivijay\pycharmprojects\firstproject\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\SujiVijay\PycharmProjects\Firstproject\Python_interview_questions\python_specifications
+collected 3 items                                                                                                                                                                                                   
+
+run_pro_pytest.py::test_first
+ I'm the fixture - setUp
+I'm the first test
+PASSEDI'm the fixture - tearDown
+
+run_pro_pytest.py::test_second
+ I'm the fixture - setUp
+I'm the second test
+PASSEDI'm the fixture - tearDown
+
+run_pro_pytest.py::test_third I'm the third test (without fixture)
+PASSED
+----------------------------------------------------------------------
+#2.What is the need of exception? Write the syntax for exception?
+'''
+What is an Exception?
+An exception is an error that happens during execution of a program. When that
+error occurs, Python generate an exception that can be handled, which avoids your
+program to crash.
+Why use Exceptions?
+Exceptions are convenient in many ways for handling errors and special conditions
+in a program. When you think that you have a code which can produce an error then
+you can use exception handling.
+Raising an Exception
+You can raise an exception in your own program by using the raise exception
+statement.
+
+Raising an exception breaks current code execution and returns the exception
+back until it is handled.
+'''
+from Tools.scripts.treesync import raw_input
+
+'''
+Sytax
+try:
+    some statements here
+except:
+    exception handling
+'''
+#Example
+try:
+    print(1/0)
+
+except ZeroDivisionError:
+    print("You can't divide by zero, you're silly.")
+print("========================================")
+import sys
+
+print("Lets fix the previous code with exception handling")
+
+try:
+    number = int(raw_input("Enter a number between 1 - 10 "))
+
+except ValueError:
+    print("Err.. numbers only")
+    sys.exit()
+
+print("you entered number ", number)
+o/p:
+You can't divide by zero, you're silly.
+========================================
+Lets fix the previous code with exception handling
+Enter a number between 1 - 10--- 23
+you entered number  23
+------------------------------------------------------------------------
+3. How to generate report in pytest?
+ans:install pytest-html in settings in pycharm
+import pytest
+
+@pytest.fixture()
+def my_fixture():
+     print("\n I'm the fixture - setUp")
+     yield
+     print("I'm the fixture - tearDown")
+
+def test_first(my_fixture):
+     print("I'm the first test")
+
+def test_second(my_fixture):
+    print("I'm the second test")
+
+def test_third():
+    print("I'm the third test (without fixture)")
+o/p:
+In terminal u have give these cmd:
+pytest -v -s --html=report.html run_pro_pytest.py
+=============================================================================================== test session starts ================================================================================================
+platform win32 -- Python 3.5.4, pytest-5.3.2, py-1.8.1, pluggy-0.13.1 -- c:\users\sujivijay\pycharmprojects\firstproject\venv\scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Plugins': {'html': '1.22.1', 'metadata': '1.8.0'}, 'JAVA_HOME': 'C:\\Program Files (x86)\\Java\\jdk-12.0.2_windows-x64_bin\\jdk-12.0.2', 'Python': '3.5.4', 'Platform': 'Windows-10-10.0.17763-SP0', 'Pac
+kages': {'pytest': '5.3.2', 'pluggy': '0.13.1', 'py': '1.8.1'}}
+rootdir: C:\Users\SujiVijay\PycharmProjects\Firstproject\Python_interview_questions\python_specifications
+plugins: html-1.22.1, metadata-1.8.0
+collected 3 items                                                                                                                                                                                                   
+
+run_pro_pytest.py::test_first
+ I'm the fixture - setUp
+I'm the first test
+PASSEDI'm the fixture - tearDown
+
+run_pro_pytest.py::test_second
+ I'm the fixture - setUp
+I'm the second test
+PASSEDI'm the fixture - tearDown
+
+run_pro_pytest.py::test_third I'm the third test (without fixture)
+PASSED
+
+------------------------------------- generated html file: file://C:\Users\SujiVijay\PycharmProjects\Firstproject\Python_interview_questions\python_specifications\report.html -------------------------------------
+================================================================================================ 3 passed in 0.08s =================================================================================================
+#4. How will make function protected in python?
+'''
+Protected
+Protected member is (in C++ and Java) accessible only from within the class
+ and it’s subclasses. How to accomplish this in Python? The answer is
+ – by convention. By prefixing the name of your member with a single underscore,
+  you’re telling others “don’t touch this, unless you’re a subclass”. See the example below:
+  example
+  Same example as before, but the content of the cup is now protected.
+   This changes virtually nothing, you’ll still be
+    able to access the variable from outside the class, only if you see something like this:
+------------
+you explain politely to the person responsible for this,
+ that the variable is protected and he should not access it or even worse, change it from outside the class.
+'''
+class Test(object):
+  ''' . '''
+  def _func(self):
+    ''' . '''
+    raise NotImplementedError()
+  def fun(self):
+    ''' . '''
+    self._func()
+
+class Demo(Test):
+  ''' . '''
+  def _func(self):
+    ''' . '''
+    print('Hi')
+
+t = Demo()
+t._func()
+o/p:
+Hi
+---------------------------------------------------------
+#4. Try and except? Exception Handling
+'''
+What is an Exception?
+An exception is an error that happens during execution of a program. When that
+error occurs, Python generate an exception that can be handled, which avoids your
+program to crash.
+'''
+#Example
+from Tools.scripts.treesync import raw_input
+
+try:
+    print(1/0)
+
+except ZeroDivisionError:
+    print("You can't divide by zero, you're silly.")
+print("========================================")
+import sys
+
+print("Lets fix the previous code with exception handling")
+
+try:
+    number = int(raw_input("Enter a number between 1 - 10 "))
+
+except ValueError:
+    print("Err.. numbers only")
+    sys.exit()
+
+print("you entered number ", number)
+o/p:
+You can't divide by zero, you're silly.
+========================================
+Lets fix the previous code with exception handling
+Enter a number between 1 - 10 45
+you entered number  45
+--------------------------------------------------------------
+5. What is the Use of @?
+ans:
+--------------------------------------------------------------
+6. What is CI/CD?
+''''
+What is CI/CD? Continuous integration and continuous delivery explained
+The CI/CD pipeline is one of the best practices for devops teams to implement, for delivering code changes more frequently and reliably
+Continuous integration (CI) and continuous delivery (CD) embody a culture, set of operating principles, and collection
+ of practices that enable application development teams to deliver
+code changes more frequently and reliably. The implementation is also known
+as the CI/CD pipeline and is one of the best practices for devops teams to implement.
+CI/CD defined
+Continuous integration is a coding philosophy and set of practices that drive development teams to implement small
+changes and check in code to version control repositories frequently.
+Because most modern applications require developing code in different platforms and tools,
+ the team needs a mechanism to integrate and validate its changes.
+ 
+ -------------------------
+ Continuous Integration
+Continuous integration automates the building, testing and deploying of applications. Software projects, whether created by a single individual 
+or entire teams, typically use continuous integration as a hub to ensure important steps such as unit testing are automated rather than manual processes.
+
+Why is continuous integration important?
+When continuous integration (CI) is established as a step in a software project's development process it can dramatically 
+reduce deployment times by minimizing steps that require human intervention. The only minor downside to using CI is that it 
+takes some initial time by a developer to set up and then there is some ongoing maintainence if a project is broken into multiple
+parts, such as going from a monolith architecture to microservices.
+
+Automated testing
+Another major advantage with CI is that testing can be an automated step in the deployment process. Broken deployments
+ can be prevented by running a comprehensive test suite of unit and integration tests when developers check in code to 
+ a source code repository. Any bugs accidentally introduced during a check-in that are caught by the test suite are reported 
+ and prevent the deployment from proceeding.
+
+The automated testing on checked in source code can be thought of like the bumper guards in bowling that prevent code
+ quality from going too far off track. CI combined with unit and integration tests check that any code modifications
+  do not break existing tests to ensure the software works as intended.
+-----------------------------------------------------------------------------------------------
+7. What are pytest fixtures?
+ans:
+'''
+Pytest - Fixtures
+Fixtures are functions, which will run before each test function to which it is applied. Fixtures are used to feed some
+ data to the tests such as database connections, URLs to test and some sort of input data. Therefore, instead
+ of running the same code for every test, we can attach fixture function to the tests and it will run and return
+ the data to the test before executing each test.
+'''
+import pytest
+
+@pytest.fixture()
+def my_fixture():
+     print("\n I'm the fixture - setUp")
+     yield
+     print("I'm the fixture - tearDown")
+
+def test_first(my_fixture):
+     print("I'm the first test")
+
+def test_second(my_fixture):
+    print("I'm the second test")
+
+def test_third():
+o/p:
+o/p
+In Terminal Enter these command
+-----------
+pytest -v -s run_pro_pytest.py--------these is for specific file,if u want to run all test cases u will give full path
+Result is:
+platform win32 -- Python 3.5.4, pytest-5.3.2, py-1.8.1, pluggy-0.13.1 -- c:\users\sujivijay\pycharmprojects\firstproject\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\SujiVijay\PycharmProjects\Firstproject\Python_interview_questions\python_specifications
+collected 3 items                                                                                                                                                                                                   
+
+run_pro_pytest.py::test_first
+ I'm the fixture - setUp
+I'm the first test
+PASSEDI'm the fixture - tearDown
+
+run_pro_pytest.py::test_second
+ I'm the fixture - setUp
+I'm the second test
+PASSEDI'm the fixture - tearDown
+
+run_pro_pytest.py::test_third I'm the third test (without fixture)
+PASSED
+----------------------------------------------------------------------
+8. How to debug the code?
+ans:
+'''
+----these website contains how to debug using pycharm---
+https://www.freecodecamp.org/news/debugging-with-pycharm-be282bcd6172/
+------------------------------------------
+-------https://www.digitalocean.com/community/tutorials/how-to-use-the-python-debugger-----------------
+Introduction
+In software development, debugging is the process of looking for and then resolving
+ issues that prevent the software from running correctly.
+
+The Python debugger provides a debugging environment for Python programs.
+ It supports setting conditional breakpoints, stepping through the source
+  code one line at a time, stack inspection, and more.get
+to the bottom, with ipdb—ipdebugger.py:
+Working Interactively with the Python Debugger
+The Python debugger comes as part of the standard Python distribution as a
+ module called pdb. The debugger is also extensible, and is defined as the class Pdb. You can read the official documentation of pdb to learn more.
+
+We’ll begin by working with a short program that has two global variables, a function that creates a nested loop,
+ and the if __name__ == '__main__': construction that will call the nested_loop() function.
+'''
+'''
+We can now run this program through the Python debugger by using the following command:
+python -m pdb looping.py
+'''
+'''
+Using the Debugger to Move through a Program
+When working with programs in the Python debugger, you’re likely to use the list, step,
+ and next commands to move through your code. We’ll go over these commands in this section.
+
+Within the shell, we can type the command list in order to get context around the current line.
+From the first line of the program looping.py that we displayed above — num_list = [500, 600, 700] — that will look like this:
+'''
+'''
+Commands to debug in cansole
+1.(Pdb) list
+2.(Pdb) list 3, 7
+3.To move through the program line by line, we can use step or next:
+(Pdb) step
+4.(Pdb) next
+5.Breakpoints
+(Pdb) break looping.py:5
+6.Type clear and then y to remove all current breakpoints. You can then place a breakpoint where a function is defined:
+7.(Pdb) break looping.nested_loop
+8.(Pdb) break looping.py:7, number > 500
+9.(Pdb) continue
+10.To see a list of breakpoints that are currently set to run,
+ use the command break without any arguments. You’ll receive information about the particularities of the breakpoint(s) you’ve set:
+ (Pdb) break
+ 11.We can also disable a breakpoint with the command disable and the number of the breakpoint.
+  In this session, we add another breakpoint and then disable the first one:
+  (Pdb) break looping.py:11
+  (Pdb) disable 1
+  (Pdb) disable 1
+13.To enable a breakpoint, use the enable command, and to remove a breakpoint entirely, use the clear command:
+(Pdb) enable 1
+Enabled breakpoint 1 at /Users/sammy/looping.py:7
+(Pdb) clear 2
+Deleted breakpoint 2 at /Users/sammy/looping.py:11
+(Pdb)
+Table of Common pdb Commands
+Here is a table of useful pdb commands along with their short forms to keep in mind while working with the Python debugger.
+
+Command	Short form	What it does
+args	a	Print the argument list of the current function
+break	b	Creates a breakpoint (requires parameters) in the program execution
+continue	c or cont	Continues program execution
+help	h	Provides list of commands or help for a specified command
+jump	j	Set the next line to be executed
+list	l	Print the source code around the current line
+next	n	Continue execution until the next line in the current function is reached or returns
+step	s	Execute the current line, stopping at first possible occasion
+pp	pp	Pretty-prints the value of the expression
+quit or exit	q	Aborts the program
+return	r	Continue execution until the current function returns
+You can read more about the commands and working with the debugger from the Python debugger documentation.
+'''
+'''
+Conclusion
+Debugging is an important step of any software development project. The Python debugger pdb implements an interactive debugging environment 
+that you can use with any of your programs written in Python.
+
+With features that let you pause your program, look at what values your variables are set to,
+ and go through program execution in a discrete step-by-step manner, you can more fully understand
+  what your program is doing and find bugs that exist in the logic or troubleshoot known issues.
+'''
+num_list = [500, 600, 700]
+alpha_list = ['x', 'y', 'z']
+
+def nested_loop():
+    for number in num_list:
+        print(number)
+        for letter in alpha_list:
+            print(letter)
+
+if __name__ == '__main__':
+    nested_loop()
+o/p:
+To debug the file we use these command
+python -m pdb debugthecode.py
+in terminal
+------------------------------------------------------------------------------------------------------------------------
+#9.Difference between mutable and immutable?
+'''
+-----------https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747--------------
+Mutable vs Immutable Objects in Python
+Everything in Python is an object. And what every newcomer to Python should
+quickly learn is that all objects in Python can be either mutable or immutable.
+'''
+'''
+Lets dive deeper into the details of it… Since everything in Python is an Object, every 
+variable holds an object instance. When an object is initiated, it is assigned 
+a unique object id. Its type is defined at runtime and once set can never change,
+ however its state can be changed if it is mutable. Simple put, a mutable object can 
+ be changed after it is created, and an immutable object can’t.
+Objects of built-in types like (int, float, bool, str, tuple, unicode) are immutable.
+ Objects of built-in types like (list, set, dict) are mutable. Custom classes are generally 
+ mutable. To simulate immutability in a class, one should override attribute setting and deletion to raise exceptions.
+
+'''
+'''
+Mutable and Immutable Objects
+So as we discussed earlier, a mutable object can change its state or contents and immutable objects cannot.
+Mutable objects:
+list, dict, set, byte array
+Immutable objects:
+int, float, complex, string, tuple, frozen set [note: immutable version of set], bytes
+A practical example to find out the mutability of object types
+x = 10
+x = y
+We are creating an object of type int. identifiers x and y points to the same object.
+id(x) == id(y)
+id(y) == id(10)
+if we do a simple operation.
+x = x + 1
+Now
+id(x) != id(y)
+id(x) != id(10)
+The object in which x was tagged is changed. object 10 was never modified. Immutable objects doesn’t allow modification after creation
+In the case of mutable objects
+m = list([1, 2, 3])
+n = m
+We are creating an object of type list. identifiers m and m tagged to the same list object, which is a collection of 3 immutable int objects.
+id(m) == id(n)
+Now poping an item from list object does change the object,
+m.pop()
+object id will not be changed
+id(m) == id(n)
+m and n will be pointing to the same list object after the modification. The list object will now contain [1, 2].
+So what have we seen so far from the above examples?
+Python handles mutable and immutable objects differently.
+Immutable are quicker to access than mutable objects.
+Mutable objects are great to use when you need to change the size of the object, 
+example list, dict etc.. Immutables are used when you need to ensure that the object you made will always stay the same.
+Immutable objects are fundamentally expensive to “change”, because doing so involves creating a copy. Changing mutable objects is cheap.
+'''
+-=--------------------------------------------------------------------------------------------------------
