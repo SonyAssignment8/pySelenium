@@ -1,0 +1,4 @@
+good
+good day
+bad bye
+hi hello bye

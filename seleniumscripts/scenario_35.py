@@ -5,14 +5,6 @@ driver=webdriver.Chrome()
 driver.implicitly_wait(3)
 driver.get("https://jqueryui.com/")
 
-#drag and drop
-# driver.find_element_by_link_text("Droppable").click()
-# driver.switch_to_frame(0)
-# drag=driver.find_element_by_id("draggable")
-# drop=driver.find_element_by_id("droppable")
-# action=ActionChains(driver)
-# action.drag_and_drop(drag,drop).perform()
-
 #drag mouse cursor to y axis in sliding
 driver.find_element_by_link_text("Slider").click()
 a=driver.find_element_by_class_name("demo-frame")
