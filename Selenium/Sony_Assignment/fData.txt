@@ -1,0 +1,2 @@
+In Fibonacci series, next number is the sum of previous two numbers.
+The first two number of Fibonacci series are 0 and 1.
