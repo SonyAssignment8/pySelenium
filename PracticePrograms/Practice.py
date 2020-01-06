@@ -33,9 +33,13 @@
 #                 break
 #         else:
 #             print("prime-numbers",num)
-from datetime import date
-mon=date.today().
-print(mon)
+# from datetime import date
+# mon=date.today().
+# print(mon)
+#
+# str="krishna"
+# print("-".join(str))
 
-str="krishna"
-print("-".join(str))
+import datetime
+from datetime import datetime
+print(datetime.today().ctime())
