@@ -1,0 +1,10 @@
+from selenium import webdriver
+driver=webdriver.Chrome("./chromedriver.exe")
+driver.get("https://javascript.info/alert-prompt-confirm")
+driver.find_element_by_xpath("//a[text()='Run the demo']").click()
+driver.switch_to_alert().send_keys("Divya")
+driver.switch_to_alert().accept()
+driver.switch_to_alert()
+print(driver.switch_to_alert().text)
+driver.switch_to_alert().accept()
+driver.close()
