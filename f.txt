@@ -1,0 +1,6 @@
+Constructors are not methods and they don’t have any return type.
+Constructor name should match with class name .
+Constructor can use any access specifier, they can be declared as private also.
+Private constructors are possible in java but there scope is within the class only.
+Like constructors method can also have name same as class name,
+but still they have return type, though which we can identify them that they are methods not constructors.
