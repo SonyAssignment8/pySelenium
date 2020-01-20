@@ -1,0 +1,5 @@
+setup.py
+amazon_app.egg-info/PKG-INFO
+amazon_app.egg-info/SOURCES.txt
+amazon_app.egg-info/dependency_links.txt
+amazon_app.egg-info/top_level.txt

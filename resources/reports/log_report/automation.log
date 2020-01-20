@@ -1,0 +1,52 @@
+01/13/2020 04:11:56 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/13/2020 04:11:58 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/13/2020 04:12:03 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/13/2020 04:12:28 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/13/2020 04:12:28 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/13/2020 04:12:32 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/13/2020 04:17:38 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/13/2020 04:17:40 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/13/2020 04:17:43 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/13/2020 04:17:59 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/13/2020 04:17:59 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/13/2020 04:18:02 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/13/2020 04:31:34 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/13/2020 04:31:35 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/13/2020 04:31:38 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/13/2020 04:31:55 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/13/2020 04:31:55 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/13/2020 04:31:58 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/13/2020 04:38:52 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/13/2020 04:38:54 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/13/2020 04:38:58 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/13/2020 04:39:12 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/13/2020 04:39:12 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/13/2020 04:39:21 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/13/2020 04:47:21 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/13/2020 04:47:25 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/13/2020 04:47:29 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/13/2020 04:47:46 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/13/2020 04:47:47 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/13/2020 04:47:52 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/13/2020 04:48:06 PM - venv - INFO: Element found with locator:add-to-cart-buttonand locator Typeid
+01/13/2020 04:48:13 PM - venv - INFO: clicked on element with locator:add-to-cart-buttonlocatorType:id
+01/13/2020 05:13:49 PM - venv - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/13/2020 05:13:49 PM - venv - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/13/2020 05:13:52 PM - venv - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/13/2020 05:13:52 PM - venv - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/13/2020 05:13:52 PM - venv - INFO: element not found with locator//span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/13/2020 05:13:52 PM - venv - INFO: cannot click on the element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/17/2020 02:34:25 PM - venv - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/17/2020 02:34:25 PM - venv - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/17/2020 02:34:42 PM - venv - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/17/2020 02:34:42 PM - venv - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/17/2020 02:34:56 PM - venv - INFO: element not found with locator//span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/17/2020 02:34:56 PM - venv - INFO: cannot click on the element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/17/2020 03:16:10 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/17/2020 03:16:15 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/17/2020 03:16:18 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/17/2020 03:16:56 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/17/2020 03:16:56 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/17/2020 03:16:59 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/17/2020 03:17:21 PM - venv - INFO: Element found with locator:add-to-cart-buttonand locator Typeid
+01/17/2020 03:17:28 PM - venv - INFO: clicked on element with locator:add-to-cart-buttonlocatorType:id

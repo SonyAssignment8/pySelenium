@@ -1,0 +1,202 @@
+01/09/2020 02:40:57 PM - GenericMethods - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/09/2020 02:40:57 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:41:10 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:41:10 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:43:07 PM - GenericMethods - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/09/2020 02:43:07 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:43:20 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:43:20 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:45:30 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 02:45:30 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:45:33 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:45:33 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:48:33 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 02:48:33 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:48:36 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:48:36 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:52:13 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 02:52:13 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:52:16 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:52:16 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:53:49 PM - GenericMethods - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/09/2020 02:53:49 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:54:02 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:54:02 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:55:02 PM - GenericMethods - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/09/2020 02:55:02 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:55:15 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 02:55:15 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 02:57:27 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 02:57:27 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 02:57:31 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 02:57:47 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:02:28 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:02:28 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:02:31 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:02:47 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:12:49 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:12:49 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:12:55 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:13:15 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:18:37 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:18:37 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:18:41 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:18:55 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:30:24 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:30:24 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:30:24 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:30:24 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:30:28 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:30:59 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:32:29 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:32:29 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:32:30 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:32:30 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:32:33 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:32:50 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:34:29 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:34:29 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:34:32 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:34:38 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:38:22 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:38:22 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:38:25 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:38:36 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 03:42:34 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:42:34 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:42:39 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:42:39 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:48:26 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:48:27 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:53:57 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:53:57 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:59:13 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 03:59:13 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 03:59:20 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 03:59:34 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 04:01:47 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:01:48 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:01:54 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 04:02:23 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 04:03:43 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:03:43 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:03:49 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 04:04:01 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 04:08:29 PM - GenericMethods - INFO: element not found with locatortwotabsearchtextboxand locator Typeid
+01/09/2020 04:08:29 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:08:51 PM - GenericMethods - INFO: element not found with locator//input[@value='Go']and locator Typexpath
+01/09/2020 04:08:51 PM - GenericMethods - INFO: cannot click on the element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 04:11:24 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:11:24 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:11:33 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 04:11:51 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 04:29:19 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:29:19 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:29:27 PM - GenericMethods - INFO: Element found with locator://span[@id='nav-search-submit-text']and locator Typexpath
+01/09/2020 04:29:28 PM - GenericMethods - INFO: cannot click on the element with locator://span[@id='nav-search-submit-text']locatorType:xpath
+01/09/2020 04:32:51 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:32:51 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:32:59 PM - GenericMethods - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 04:33:03 PM - GenericMethods - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/09/2020 04:36:57 PM - GenericMethods - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:36:57 PM - GenericMethods - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 04:42:05 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 04:42:05 PM - venv - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 05:08:14 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 05:08:14 PM - venv - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 05:14:41 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 05:14:41 PM - venv - INFO: cant send data on the element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 05:26:32 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 05:26:44 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 05:33:24 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/09/2020 05:33:27 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/09/2020 05:33:32 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/09/2020 05:33:46 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 11:10:39 AM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 11:10:42 AM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 11:10:45 AM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 11:11:16 AM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 11:11:36 AM - venv - INFO: element not found with locator//span[text()='Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Silver']and locator Typexpath
+01/10/2020 11:11:36 AM - venv - INFO: cannot click on the element with locator://span[text()='Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Silver']locatorType:xpath
+01/10/2020 11:13:32 AM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 11:13:35 AM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 11:13:38 AM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 11:13:48 AM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 11:14:08 AM - venv - INFO: element not found with locator//span[contains(text(),'Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Silver')]and locator Typexpath
+01/10/2020 11:14:08 AM - venv - INFO: cannot click on the element with locator://span[contains(text(),'Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Silver')]locatorType:xpath
+01/10/2020 11:18:35 AM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 11:18:42 AM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 11:18:46 AM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 11:18:58 AM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 11:19:18 AM - venv - INFO: element not found with locator//span[text()='Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Silver']and locator Typexpath
+01/10/2020 11:19:18 AM - venv - INFO: cannot click on the element with locator://span[text()='Simple Mobile - Apple iPhone 11 Pro Max (64GB) - Silver']locatorType:xpath
+01/10/2020 11:22:31 AM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 11:22:33 AM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 11:22:37 AM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 11:22:53 AM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 11:22:53 AM - venv - INFO: Element found with locator://a[@class='a-link-normal a-text-normal']and locator Typexpath
+01/10/2020 11:22:55 AM - venv - INFO: clicked on element with locator://a[@class='a-link-normal a-text-normal']locatorType:xpath
+01/10/2020 11:50:36 AM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 11:50:42 AM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 11:50:45 AM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 11:51:16 AM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 11:51:17 AM - venv - INFO: Element found with locator://a[@class='a-link-normal a-text-normal']and locator Typexpath
+01/10/2020 11:51:20 AM - venv - INFO: clicked on element with locator://a[@class='a-link-normal a-text-normal']locatorType:xpath
+01/10/2020 11:51:43 AM - venv - INFO: element not found with locator//input[@id='add-to-wishlist-button-submit']and locator Typexpath
+01/10/2020 11:51:43 AM - venv - INFO: cannot click on the element with locator://input[@id='add-to-wishlist-button-submit']locatorType:xpath
+01/10/2020 12:29:04 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 12:29:10 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 12:29:13 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 12:29:30 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 12:29:30 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 12:29:33 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 12:39:17 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 12:39:20 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 12:39:23 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 12:39:38 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 12:39:38 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 12:39:40 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 12:44:57 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 12:44:58 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 12:45:01 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 12:45:17 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 12:45:18 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 12:45:29 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 12:52:30 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 12:52:31 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 12:52:34 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 12:52:49 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 12:52:49 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 12:52:52 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 12:53:23 PM - venv - INFO: element not found with locator//input[@id='add-to-cart-button']and locator Typeid
+01/10/2020 12:53:23 PM - venv - INFO: cannot click on the element with locator://input[@id='add-to-cart-button']locatorType:id
+01/10/2020 12:57:49 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 12:57:55 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 12:57:58 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 12:58:27 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 12:58:41 PM - venv - INFO: element not found with locator//span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 12:58:41 PM - venv - INFO: cannot click on the element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 01:02:16 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 01:02:29 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 01:02:33 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 01:02:52 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 01:02:52 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 01:02:54 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 01:03:19 PM - venv - INFO: Element found with locator:add-to-cart-buttonand locator Typeid
+01/10/2020 01:03:24 PM - venv - INFO: clicked on element with locator:add-to-cart-buttonlocatorType:id
+01/10/2020 01:16:01 PM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/10/2020 01:16:02 PM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/10/2020 01:16:05 PM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/10/2020 01:16:31 PM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/10/2020 01:16:36 PM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/10/2020 01:16:37 PM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/10/2020 01:16:59 PM - venv - INFO: Element found with locator:add-to-cart-buttonand locator Typeid
+01/10/2020 01:17:07 PM - venv - INFO: clicked on element with locator:add-to-cart-buttonlocatorType:id
+01/11/2020 09:58:54 AM - venv - INFO: Element found with locator:twotabsearchtextboxand locator Typeid
+01/11/2020 09:58:59 AM - venv - INFO: sent data on element with locator:twotabsearchtextboxlocatorType:id
+01/11/2020 09:59:03 AM - venv - INFO: Element found with locator://input[@value='Go']and locator Typexpath
+01/11/2020 09:59:39 AM - venv - INFO: clicked on element with locator://input[@value='Go']locatorType:xpath
+01/11/2020 09:59:39 AM - venv - INFO: Element found with locator://span[text()='Apple iPhone XR (128GB) - Black']and locator Typexpath
+01/11/2020 09:59:41 AM - venv - INFO: clicked on element with locator://span[text()='Apple iPhone XR (128GB) - Black']locatorType:xpath
+01/11/2020 09:59:57 AM - venv - INFO: Element found with locator:add-to-cart-buttonand locator Typeid
+01/11/2020 10:00:10 AM - venv - INFO: clicked on element with locator:add-to-cart-buttonlocatorType:id
