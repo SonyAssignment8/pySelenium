@@ -1,0 +1,56 @@
+Automation Notes
+BDD Cucumber:
+1 Feature File
+2. Step Definition
+
+Feature File: written using groovy scripting
+Given: 
+
+When:
+
+Then: 
+
+Step Definition:
+
+Hybrid (POM) framework:
+ 
+
+
+Test NG:   Pytest
+
+Unit Testing framework
+Unit Test
+Behave
+Robot  Framework
+Pytest-bdd
+
+
+Pytest:
+
+packege name:
+Module name and method name starts with test_or_test
+
+Execution: go to project path 
+pytest module.py
+pytest -k demo  Batch Execution
+pytest -s
+
+
+
+@pytest.fixtures(scopr = ''session)
+beforeAll          session
+beforeModule		Module
+beforeClass			Class
+BeforeFunction		function
+AfterFunction
+AfterClass
+AftrModule
+AfterAll
+
+Markers:
+@pytest.mark.skip()
+@pytest.mark.parametrize("product",[("crocin"),("Anacin")])
+
+
+Reports:
+Allure server path 

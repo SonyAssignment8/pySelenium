@@ -1,0 +1,29 @@
+driver.implicit_wait(10)
+
+Wait - Implicit wait and Explicit wait
+
+
+Explicit wait systax:
+
+Key Actions:
+
+Keys.ENTER
+
+driver.find_element(--).send_keys(Keys.cntrl+A)
+
+send_keys("Admin",Keys.TAB,"Admin123",Keys.ENTER)
+
+
+
+Alert: 1.Html
+2. Non Html
+
+alert = driver.swich_to.Alert
+alert.accept()
+alert.dismiss()
+alert.send_keys()
+
+Enacapsulation:
+inheritance:
+Abstraction:
+Polymorphism
